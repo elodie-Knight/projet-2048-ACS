@@ -24,8 +24,7 @@ $transition-speed: 100ms;
 html, body {
   margin: 0;
   padding: 0;
-
-  background: #faf8ef;
+  background: black;
   color: $text-color;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
@@ -33,6 +32,7 @@ html, body {
 
 body {
   margin: 80px 0;
+    background-color: black;
 }
 
 .heading {
@@ -40,6 +40,7 @@ body {
 }
 
 h1.title {
+    color: white;
   font-size: 80px;
   font-weight: bold;
   margin: 0;
@@ -62,6 +63,7 @@ h1.title {
 .scores-container {
   float: right;
   text-align: right;
+   
 }
 
 .score-container, .best-container {
@@ -69,7 +71,7 @@ h1.title {
 
   position: relative;
   display: inline-block;
-  background: $game-container-background;
+  background: #d31f44;
   padding: 15px 25px;
   font-size: $height;
   height: $height;
@@ -121,7 +123,7 @@ p {
 }
 
 a {
-  color: $text-color;
+  color: white;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
@@ -462,6 +464,7 @@ hr {
 }
 
 .restart-button {
+    background-color: #d31f44;
   @include button;
   display: block;
   text-align: center;
